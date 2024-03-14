@@ -3,15 +3,15 @@ import MyNavbar from './Navbar/MyNavbar';
 import "./HomePage.css";
 import SoundComponent from './SoundComponent/SoundComponent';
 import { TweenMax, Power3 } from 'gsap'; 
-import About from './Aboutus/Aboutus';
+
 import Section2 from './Section2/Section2';
 import Footer from './Footer/Footer';
 import Section3 from './Section3/Section3';
-import संग्रह from "./संग्रह/संग्रह"
+import संग्रह from "./Sangreh/Sangreh"
 import Dharmik from './Dharmik/Dharmik';
 const Homepage = () => {
   const logoItem = useRef(null); 
-  const imageItem = useRef(null)
+
 
   useEffect(() => {
     TweenMax.to(

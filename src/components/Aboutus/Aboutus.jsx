@@ -5,7 +5,7 @@ import MyNavbar from '../Navbar/MyNavbar'
 import Footer from '../Footer/Footer'
 
 const About = () => {
-  const [data, setData] = useState([])
+
 
   return (
     <>

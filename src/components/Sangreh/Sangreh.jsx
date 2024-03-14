@@ -21,10 +21,10 @@ const variants = {
   };
 
 
-const संग्रह = () => {
+const Sangreh = () => {
     const ref = useRef();
 
-    const isInView = useInView(ref, { margin: "-100px" });
+    // const isInView = useInView(ref, { margin: "-100px" });
 
   return (
     <motion.div
@@ -116,4 +116,4 @@ const संग्रह = () => {
   );
 };
 
-export default संग्रह
+export default Sangreh

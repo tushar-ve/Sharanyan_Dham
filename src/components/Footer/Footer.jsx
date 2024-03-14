@@ -1,44 +1,9 @@
-// import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebook, faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-// import logo from '../../assets/logo-small.png';
-
-// import './footer.css';
-
-// const Footer = () => {
-//   return (
-//     <div className='footer'>
-//       <div className='footer-up'>
-//       <div>
-//         <img src={logo} alt="Logo" className="logo-image" /><span className='name1'>शरण्य धाम</span>
-//         </div>
-      
-//       <div className='socialMedia'>
-//         <FontAwesomeIcon icon={faFacebook} />
-//         <FontAwesomeIcon icon={faYoutube} />
-//         <FontAwesomeIcon icon={faLinkedinIn} />
-//       </div>
-      
-//       </div>
-    
-
-//       <div className="subscribe">
-
-//         <input type="email" placeholder="Enter your email" />
-//         <button>Subscribe</button>
-//       </div>
-//       <p>&copy; 2023 www.Sharayanadham.com</p>
-//     </div>
-//   );
-// };
-
-// export default Footer;
 
 
 import React from "react";
 import "./footer.css";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
-import Payment from "../../assets/logo-small.png";
+
 const Footer = () => {
   return (
     <footer className="footer">

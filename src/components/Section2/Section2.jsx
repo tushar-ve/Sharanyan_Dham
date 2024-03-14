@@ -1,7 +1,7 @@
 import React from 'react';
 import mandirImage from '../../assets/mandir_sec2 (2).jpg';
 import './section2.scss';
-import {mirrorEasing, motion} from  'framer-motion';
+import {motion} from  'framer-motion';
 
 const textVariants ={
     intial:{
@@ -56,7 +56,7 @@ const Section2 = () => {
 ॐ शान्तिः शान्तिः शान्तिः ॥
     </motion.div>
         <div className='imageContainer'>
-            <img src={mandirImage} alt='image/'/>
+            <img src={mandirImage} alt='mandir'/>
         </div>
     </div>
   )
