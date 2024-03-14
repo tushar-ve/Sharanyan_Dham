@@ -7,7 +7,7 @@ import { TweenMax, Power3 } from 'gsap';
 import Section2 from './Section2/Section2';
 import Footer from './Footer/Footer';
 import Section3 from './Section3/Section3';
-import संग्रह from "./Sangreh/Sangreh"
+import Sangreh from "./Sangreh/Sangreh"
 import Dharmik from './Dharmik/Dharmik';
 const Homepage = () => {
   const logoItem = useRef(null); 
@@ -40,7 +40,7 @@ const Homepage = () => {
         <Section2/>
       </section>
       <section id='Services'><Section3 type="services"/></section>
-      <section><संग्रह/></section>
+      <section><Sangreh/></section>
       <section id='Portfolio'><Section3 type="portfolio"/></section>
       <Dharmik/>
       

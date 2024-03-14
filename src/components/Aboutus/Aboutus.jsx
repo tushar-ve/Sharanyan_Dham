@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+
 import ImageTop from '../../assets/mandir_img.jpg'
 import './Aboutus.css'
 import MyNavbar from '../Navbar/MyNavbar'

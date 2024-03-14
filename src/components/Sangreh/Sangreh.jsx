@@ -1,5 +1,5 @@
 import React,{useRef} from 'react'
-import { motion, useInView } from "framer-motion";
+import { motion} from "framer-motion";
 import imageButton from "../../assets/button_logo.png"
 import './sangreh.scss'
 
@@ -24,7 +24,7 @@ const variants = {
 const Sangreh = () => {
     const ref = useRef();
 
-    // const isInView = useInView(ref, { margin: "-100px" });
+    
 
   return (
     <motion.div
