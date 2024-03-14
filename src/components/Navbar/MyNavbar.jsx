@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import logo from "../../assets/logo-small.png";
 
 const MyNavbar = () => {
