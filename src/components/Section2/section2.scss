@@ -1,0 +1,101 @@
+@import "../../app.scss";
+
+.hero {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg, #e9ebd0, #c5c207);
+    position: relative;
+
+
+    .wrapper{
+        max-width: 1366px;
+        height:100%;
+        margin: auto;
+        
+    .textContainer{
+        width: 31%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:20px;
+        font-family: "Rozha One", serif;
+        font-weight: 600;
+        font-style: normal;
+
+        @include mobile {
+            height: 50%;
+            width: 100%;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+          }
+
+        h2{
+            font-size: 30;
+            color: rgb(80, 2, 104);
+            font-family: "Libre Franklin", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+  
+        }
+        
+        @include mobile {
+            font-size: 36px;
+          }
+
+        .buttons{
+            button{
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                margin-right: 20px;
+                cursor: pointer;
+                font-weight: 800;
+            }
+            button:hover{
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color: white;
+                color: rgb(201, 197, 2);
+                margin-right: 20px;
+                cursor: pointer;
+                font-weight: 500;
+            }
+        }
+        img{
+            width: 50px;
+        }
+    
+    }
+    }
+
+.imageContainer{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width : 50%;
+    @include mobile {
+        height: 50%;
+        width: 100%;
+        top: unset;
+        bottom: 0;
+      }
+  
+}
+
+.slidingTextContainer{
+    position: absolute;
+    font-size: 9vh;
+    bottom: 20px;
+    white-space: nowrap;
+    color: #ffffff39;
+    width: 50%;
+    font-weight: bold;
+}
+
+}

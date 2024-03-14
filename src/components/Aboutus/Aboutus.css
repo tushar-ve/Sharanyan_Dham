@@ -1,0 +1,73 @@
+/* styles/About.css */
+
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  /* padding: 30px 0; */
+}
+
+.name{
+  height: 60px;
+  font-weight: 50;
+  color: black;
+  position: absolute;
+	left: 43%;
+	font-size: 4em;
+	color: rgba(226, 222, 222, 0.459);
+	background-image: url(https://images.unsplash.com/photo-1580596090683-f4711170117b?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite;
+    margin-top: 10rem;
+}
+.aboutTop {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
+
+.aboutBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.aboutBottom .p2 {
+  max-width: 800px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2.6;
+  color: #555;
+  margin-bottom: 50px;
+ 
+}
+
+.about .aboutBottom h1 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+ 
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
