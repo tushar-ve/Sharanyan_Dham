@@ -41,10 +41,12 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link style={{color: 'rgb(255 255 255)'}} href="/">Home</Nav.Link>
-          <Nav.Link style={{color: 'rgb(255 255 255)'}} href="/about">About</Nav.Link>
-          <Nav.Link style={{color: 'rgb(255 255 255)'}} href="#services">Services</Nav.Link>
-          <Nav.Link style={{color: 'rgb(255 255 255)'}} href="/contactus">Contact</Nav.Link>
+          
+          <NavLink style={{color: 'rgb(255 255 255)', textDecoration: "none", marginRight: '15px'}} to="/">Home</NavLink>
+          <NavLink style={{color: 'rgb(255 255 255)', textDecoration: "none", marginRight: '15px'}} to="/about">About</NavLink>
+          <NavLink style={{color: 'rgb(255 255 255)', textDecoration: "none", marginRight: '15px'}} to="#services">Services</NavLink>
+          <NavLink style={{color: 'rgb(255 255 255)', textDecoration: "none", marginRight: '15px'}} to="/contactus">Contact</NavLink>
+     
         </Nav>
         
       </Navbar.Collapse>
