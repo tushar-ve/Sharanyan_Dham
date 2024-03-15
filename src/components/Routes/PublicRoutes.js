@@ -1,6 +1,7 @@
 import Homepage from "../Homepage";
 import Aboutus from "../Aboutus/Aboutus";
 import Contact from "../ContactUs/Contactus";
+import Gallery from "../Gallery/Gallery";
 
 const publicRoutes = [
     {
@@ -15,6 +16,10 @@ const publicRoutes = [
     {
       path: "/contactus",
       element: <Contact />,
+    },
+    {
+      "path" : "/gallery",
+      element: <Gallery />,
     },
   ];
   
