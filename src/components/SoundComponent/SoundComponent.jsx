@@ -1,5 +1,3 @@
-import React, { useEffect, useRef } from 'react';
-
 import playButtonImage from "../../assets/logobig.png";
 import "./SoundComponent.css";
 

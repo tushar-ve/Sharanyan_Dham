@@ -9,7 +9,7 @@ import Footer from './Footer/Footer';
 import Section3 from './Section3/Section3';
 import Sangreh from "./Sangreh/Sangreh"
 import Dharmik from './Dharmik/Dharmik';
-import Gallery from './Gallery/Gallery';
+
 const Homepage = () => {
   const logoItem = useRef(null); 
 
