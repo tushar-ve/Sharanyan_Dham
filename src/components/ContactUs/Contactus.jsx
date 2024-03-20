@@ -1,6 +1,5 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
-import LeftImage from '../../assets/bg-sharanyadham.jpg';
 import './Contact.css';
 import MyNavbar from '../Navbar/MyNavbar';
 
